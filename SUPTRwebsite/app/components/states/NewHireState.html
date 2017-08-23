@@ -1,0 +1,69 @@
+﻿<div newHire-state controller="app.components.states.NewHireState">
+    <style component="css-helpers"></style>
+    <style component="css-material-icons"></style>
+    <style>
+        [newhireBody] {
+            font-size: 16px;
+            color: #2b2b2b;
+
+        }
+
+        [newhireLinks] {
+            font-size: 18px;
+            text-shadow: 1.5px 1px .5px gray;
+            font-weight:400;
+            padding: 5px;
+            background-color: #D5393B;
+        }
+
+        [quickExpectations] {
+            max-width: 300px;
+            padding: 20px;
+        }
+
+        [titles] {
+            font-size: 24px;
+        }
+
+        [links] {
+            max-width: 330px;
+            padding: 20px;
+
+        }
+
+        [link] {
+            padding: 10px;
+            text-align: left !important;
+            color:white;
+        }
+    </style>
+    <div component="toolbar">
+        <div>New Hire Information</div>
+    </div>
+    <div newhireBody>
+        <div newhireLinks>
+            <div link component="flat-button" tag="daliy-responsibilities">Daily Responsibilities&nbsp;</div>
+            <div link component="flat-button" tag="aide-expectations">Aide Expectations&nbsp;</div>
+            <div link component="flat-button" tag="employee-handbook">Employee Handbook&nbsp;</div>
+            <div link component="flat-button" tag="vacation-request">Vacation Time Request&nbsp;</div>
+            <div link component="flat-button" tag="bracing-expectations">Bracing Expectations&nbsp;</div>
+            <div link component="flat-button" tag="hippa">HIPPA Required Certification&nbsp;</div>
+        </div>
+        <div quickExpectations>
+            <div titles>Employee Expectations</div>
+            <ol type="1">
+                <li>Patient care is our number one priority.</li>
+                <li>
+                    Our Goal is to provide quality patient care. This means floating patients through their plan of care safely and efficiently.
+                    Your main responsability is to facilitate smooth transition for each patient from one exercise to another.
+                </li>
+                <li>
+                    You are expected to learn simple Medical Terms used in the office and learn exercises so you can show and correct patients correct form.
+                    This includes communicating with Physical Therapist about patients status.
+                </li>
+                <li>You will be expected to learn to fit braces. You will be required to familiarize yourself with each brace and how to fit it correctly.</li>
+            </ol>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,38 @@
+﻿<div controller="app.components.layouts.Toolbar">
+    <style component="css-helpers"></style>
+    <style component="css-material-icons"></style>
+    <style>
+        [toolbar] {
+            position: relative;
+            z-index: 5;
+        }
+
+        [toolbar-header] {
+            position: relative;
+            height: 50px;
+            line-height: 50px;
+            z-index: 2;
+        }
+
+        [toolbar]:not([back-arrow]) [toolbar-back-arrow] {
+            display: none;
+        }
+
+        [toolbar][back-arrow] [toolbar-hamburger-button] {
+            display: none;
+        }
+    </style>
+    <div toolbar-header class="background-primary box-shadow-1 text-primary">
+        <div toobar-hamburger-button tag="hamburgerButton" component="flat-button" dark-theme class="extra-padding-left extra-padding-right text-primary pull-left">
+            <i class="material-icons text-headline inherit-line-height">menu</i>
+        </div>
+        <div toolbar-back-arrow tag="backButton" component="flat-button" class="extra-padding-left extra-padding-right text-primary pull-left">
+            <i class="material-icons text-headline inherit-line-height">arrow_back</i>
+        </div>
+        <div tool-title class="inherit-line-height pull-left" style="padding-right:15px;">
+            <img src="images/Logo.jpg" style="height:48px; border:inset; vertical-align:middle;" />
+        </div>
+        <div toolbar-title class="text-title inherit-line-height pull-left"><embed select=":first-child" /></div>
+        <div toolbar-extra-options class="pull-right"><embed select=":last-child" /></div>
+    </div>
+</div>

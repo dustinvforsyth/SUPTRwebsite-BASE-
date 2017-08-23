@@ -1,0 +1,14 @@
+﻿{
+  "aliases": {
+    "app-main": "AppMain.html",
+    "home-state": "states/HomeState.html",
+    "error-state": "states/ErrorState.html",
+    "inventory-state": "states/InventoryState.html",
+    "newHire-state": "states/NewHireState.html",
+    "resources-state": "states/ResourcesAppsState.html",
+    "schedule-state": "states/ScheduleState.html",
+    "toolbar": "layouts/toolbar.html",
+    "LoginPage": "layouts/LoginPage.html",
+    "LoginComponent": "layouts/LoginComponent.js"
+  }
+}
